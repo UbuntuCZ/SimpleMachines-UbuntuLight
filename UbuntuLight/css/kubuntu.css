@@ -1,0 +1,39 @@
+/* Text color elements */
+a:link,
+a:visited,
+h3.titlebg, 
+h3.titlebg a, 
+h4.titlebg, 
+h4.titlebg a,
+.dropmenu li a.firstlevel:hover span.firstlevel, 
+.dropmenu li:hover a.firstlevel span.firstlevel,
+.buttonlist ul li a.active,
+a.sub-nav-item.current, 
+a.sub-nav-item:hover, 
+a.sub-nav-item:active, 
+a.sub-nav-item:focus,
+#footer_section a.footer-link:hover, 
+#footer_section a.footer-link:active, 
+#footer_section a.footer-link:focus,
+.table_list tbody.content td.info a.subject,
+.poster h4, 
+.poster h4 a { color: #027AC6; }
+
+/* Background color elements */
+.button_submit, 
+.button_reset,
+div.cat_bar,
+div.roundframe div.cat_bar h3.catbg,
+.table_grid tr.catbg,
+.table_grid tr.titlebg,
+.buttonlist ul li a.active { background-color: #027AC6; color: #fff; }
+#top-section,
+.activity_stats li div.bar div { background-color: #027AC6; }
+
+/* Hover elements #027AC6 + 20% #000000 */
+.button_submit:hover, .button_reset:hover,
+.buttonlist ul li a.active:hover { background-color: #01619e; color: #fff; }
+.button_submit, .button_reset { text-shadow: 1px 1px 1px #01619e; }
+
+/* Fixing overwritten items */
+a.main-nav-item { color: #fff; }
